@@ -8,6 +8,19 @@
  * Sidebar
  */
 
+ .sidebar {
+  position: fixed;
+  top: 56px;
+  bottom: 0;
+  left: 0;
+  width: 16.666667%;
+  z-index: 100;
+  padding: 1rem 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f8f9fa;
+}
+
 @media (min-width: 768px) {
   .sidebar .offcanvas-lg {
     position: -webkit-sticky;
